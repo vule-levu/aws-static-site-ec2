@@ -1,0 +1,9 @@
+# Never commit private keys!
+*.pem
+
+# VSCode settings
+.vscode/
+
+# Optional:
+*.log
+*.bak
