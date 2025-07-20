@@ -1,0 +1,1 @@
+# aws-static-site-ec2
