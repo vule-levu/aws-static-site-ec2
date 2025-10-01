@@ -19,7 +19,8 @@ graph TD;
 
 ## Steps
 
-1. Launched EC2
-2. SSH from Windows (Git Bash)
-3. Installed Apache
-4. Pushed this to GitHub
+1. Launch EC2 (allow SSH/22 and HTTP/80 as inbound rules)
+2. Install and Verify Apache running on EC2 (i.e. httpd is Active)
+3. SSH into EC2 from your terminal (using your generated key while creating/launching your instance): e.g. ssh 
+4. Create a test webpage on your terminal `echo 'This is a message to EC2 hosted website' | sudo tee /var/www/html/index.html`
+5. Access and View the message in your web browser http://your-public-ip`
